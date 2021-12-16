@@ -1,0 +1,26 @@
+<app-header></app-header>
+<div class="containerPokemon">
+  <div class="formulario">
+  <form  [formGroup]="pokemonsForm" (ngSubmit)="onBattle(pokemonsForm.value)">
+    <p>Digite los pokemones a combatir</p>
+    <input type="texto" id="poke_1" class="inp_poke1" placeholder="Pokemon1" formControlName="pokemon_1">
+    <input type="texto" id="poke_2" class="inp_poke2" placeholder="Pokemon2" formControlName="pokemon_2">
+    <input type="submit" value="hola see">
+  </form>
+  </div>
+  <div class="pokemons">
+    <div class="pokemon1">
+      <h1>{{variable.pokemon_1}}</h1>
+      <img [src]="variable.sprites" >
+    </div>
+    <div class="pokemon2">
+    </div>
+    <div class="pokemon2">
+      <h1>{{variable.pokemon_2}}</h1>
+      <img [src]="variable.sprites2" >
+    </div>
+    <div class="pokemon2">
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
