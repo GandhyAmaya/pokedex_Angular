@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Apokedex
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# pokedex_Angular
+consume api  pokemon  for create an api that puts two pokemon into battle and identifies the winner
+>>>>>>> 4372e9194b5b9c8fd7516423df6a9c0335591e35
