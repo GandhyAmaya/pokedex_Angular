@@ -1,5 +1,98 @@
-.cards{
+body{
+margin: 0;
+background-image: url(https://st4.depositphotos.com/5466018/22228/v/1600/depositphotos_222280346-stock-illustration-white-gray-abstract-background-vector.jpg);
+}
+.formulario{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formulario input{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 14px;
+    width: 200px;
+    align-self: center;
+    height: 24px;
+    margin-top: 10px;
+}
+.pokemons{
   display: flex;
   justify-content: center;
   flex-direction: row;
+}
+.card{
+  display: flex;
+  align-items: center;
+  margin: 2em;
+  border-color: #393D39;
+  width: 250px;
+  height: 300px;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.pokebola {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #FFF;
+    border: 5px solid #000;
+    border-radius: 50%;
+    box-shadow: inset -10px 10px 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    animation: gira 4s infinite;
+    margin: 20px auto;
+}
+.pokebola:before, .pokebola:after {
+    content: "";
+    position: absolute;
+}
+.pokebola:before {
+    background-color: #EF4036;
+    width: 100%;
+    height: 50%;
+}
+.pokebola:after {
+    top: calc(50% - 10px);
+    width: 100%;
+    height: 20px;
+    background-color: #000;
+}
+.pokebola-botao {
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+    border: 10px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    z-index: 10;
+}
+.pokebola-botao:before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+    width: 20px;
+    height: 20px;
+    background-color: #FFF;
+    border: 3px solid #000;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+@keyframes gira {
+    0% { transform: rotate(-45deg); }
+    50% { transform: rotate(45deg); }
+    100% { transform: rotate(-45deg); }
 }

@@ -1,26 +1,35 @@
 <app-header></app-header>
+<body>
 <div class="containerPokemon">
   <div class="formulario">
-  <form  [formGroup]="pokemonsForm" (ngSubmit)="onBattle(pokemonsForm.value)">
-    <p>Digite los pokemones a combatir</p>
+    <h2>Digite los pokemones a combatir</h2>
+  <form class="form" [formGroup]="pokemonsForm" (ngSubmit)="onBattle(pokemonsForm.value)">
+
     <input type="texto" id="poke_1" class="inp_poke1" placeholder="Pokemon1" formControlName="pokemon_1">
     <input type="texto" id="poke_2" class="inp_poke2" placeholder="Pokemon2" formControlName="pokemon_2">
-    <input type="submit" value="hola see">
+    <input type="submit" value="Battle Pokemons">
   </form>
   </div>
   <div class="pokemons">
-    <div class="pokemon1">
+    <div class="pokebola">
+      <div class="pokebola-botao"></div>
+    </div>
+    <div class="card">
       <h1>{{variable.pokemon_1}}</h1>
       <img [src]="variable.sprites" >
+      <h2>{{type_pokemons1}}</h2>
+      <h3>Puntaje {{puntaje.puntaje1}}</h3>
     </div>
-    <div class="pokemon2">
-    </div>
-    <div class="pokemon2">
+    <div class="card">
       <h1>{{variable.pokemon_2}}</h1>
       <img [src]="variable.sprites2" >
+      <h2>{{type_pokemons2}}</h2>
+      <h3>Puntaje {{puntaje.puntaje2}}</h3>
     </div>
-    <div class="pokemon2">
+    <div class="pokebola">
+      <div class="pokebola-botao"></div>
     </div>
   </div>
 </div>
+</body>
 <app-footer></app-footer>
