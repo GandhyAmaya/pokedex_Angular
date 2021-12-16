@@ -1,32 +1,31 @@
-<<<<<<< HEAD
-# Apokedex
+#Pokedex
+#descripción
+esta es una aplicacion que consume una Api-Rest y tiene como objetivo enfrentar
+a dos pokemones y mostrar el ganador.
+<table >
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
+  <tr>
 
-## Development server
+    <td>TIPO GRASS/POISON</td>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+    <td>-70 PTS double_damage_from FIRE</td>
 
-## Code scaffolding
+    <td>+30 PTS half_damage_to FIRE</td>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    <td>-40 Puntos</td>
 
-## Build
+  </tr>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  <tr>
 
-## Running unit tests
+    <td>TIPO FIRE</td>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    <td>+70 PTS double_damage_to GRASS</td>
 
-## Running end-to-end tests
+    <td>-30 PTS half_damage_from GRASS</td>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+    <td>+40 Puntos</td>
 
-## Further help
+  </tr>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# pokedex_Angular
-consume api  pokemon  for create an api that puts two pokemon into battle and identifies the winner
->>>>>>> 4372e9194b5b9c8fd7516423df6a9c0335591e35
+</table>
