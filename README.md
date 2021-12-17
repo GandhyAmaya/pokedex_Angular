@@ -27,24 +27,13 @@ principal digitar los nombres de los pokemones que desea enfrentar.
 
 |    Tipo de daño    |      Descripción       |Puntos de daño|
 | :----------------  | :-------------------:  |-----------:  |
-|                    | Lista de tipos que son |              |
-| double_damage_from | muy efectivos contra   |     -70      |
-|                    | este tipo.             |              |
-|                    | Lista de tipos contra  |              |
-|   double_damage_to |los que este tipo es    |      +70     |
-|                    |  muy eficaz.           |              |
-|                    | Lista de tipos que no  |              |
-|   half_damage_from | son muy efectivos      |      -30     |
-|                    | contra este tipo.      |              |
-|                    | Lista de tipos contra  |              |
-|   half_damage_to   | los que este tipo no   |      +30     |
-|                    | es muy eficaz.         |              |
-|                    | Lista de tipos que no  |              |
-|   no_damage_from   | tienen efecto sobre    |       0      |
-|                    | este tipo.             |              |
-|                    | LLista de tipos sobre  |              |
-|   no_damage_to     | los que este tipo      |       0      |
-|                    | no tiene efecto.       |              |
+| double_damage_from | Lista de tipos que sonmuy efectivos contra este tipo.     |  70   |
+|   double_damage_to | Lista de tipos contra los que este tipo es muy eficaz.    | +70   |
+|   half_damage_from | Lista de tipos que no son muy efectivos contra este tipo. | -30   |
+|   half_damage_to   | Lista de tipos contra los que este tipo no es muy eficaz. | +30   |
+|   no_damage_from   | Lista de tipos que no tienen efecto sobre este tipo.      |   0   |
+|   no_damage_to     | LLista de tipos sobre los que este tipo no tiene efecto.  |   0   |
+
 
 #ejemplo del ejercicio
 
@@ -52,7 +41,6 @@ principal digitar los nombres de los pokemones que desea enfrentar.
 |---------------------------------|---------------------------------|
 | -70 PTS double_damage_from FIRE | +70 PTS double_damage_to GRASS  |
 | +30 PTS half_damage_to FIRE     | -30 PTS half_damage_from GRASS  |
-|---------------------------------|---------------------------------|
 |          -40 Puntos             |           +40 Puntos            |
 
 #imagen
