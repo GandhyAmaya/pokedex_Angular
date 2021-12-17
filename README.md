@@ -26,6 +26,7 @@ principal digitar los nombres de los pokemones que desea enfrentar.
 
 |              Relaciones de Daño (damage_relations)         |
 | :-----------------------------: |
+| :-----| :-----: | ----: |
 |    Tipo de daño    |      Descripción       |Puntos de daño|
 | :----------------  | :-------------------:  |-----------:  |
 |                    | Lista de tipos que son |              |
