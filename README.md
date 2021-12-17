@@ -24,8 +24,7 @@ principal digitar los nombres de los pokemones que desea enfrentar.
 
 #Reglas de la puntuacion para cada pokemon
 
-| -----------------------------------------------------|
-|              Relaciones de Daño (damage_relations)         |
+
 | :------------------| :-------------------:  | -----------: |
 |    Tipo de daño    |      Descripción       |Puntos de daño|
 | :----------------  | :-------------------:  |-----------:  |
