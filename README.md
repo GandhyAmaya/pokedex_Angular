@@ -21,23 +21,18 @@ a dos pokemones y mostrar el ganador.
 |                    | Lista de tipos que son |              |
 | double_damage_from | muy efectivos contra   |     -70      |
 |                    | este tipo.             |              |
-|--------------------|------------------------|--------------|
 |                    | Lista de tipos contra  |              |
 |   double_damage_to |los que este tipo es    |      +70     |
 |                    |  muy eficaz.           |              |
-|--------------------|------------------------|--------------|
 |                    | Lista de tipos que no  |              |
 |   half_damage_from | son muy efectivos      |      -30     |
 |                    | contra este tipo.      |              |
-|--------------------|------------------------|--------------|
 |                    | Lista de tipos contra  |              |
 |   half_damage_to   | los que este tipo no   |      +30     |
 |                    | es muy eficaz.         |              |
-|--------------------|------------------------|--------------|
 |                    | Lista de tipos que no  |              |
 |   no_damage_from   | tienen efecto sobre    |       0      |
 |                    | este tipo.             |              |
-|--------------------|------------------------|--------------|
 |                    | LLista de tipos sobre  |              |
 |   no_damage_to     | los que este tipo      |       0      |
 |                    | no tiene efecto.       |              |
