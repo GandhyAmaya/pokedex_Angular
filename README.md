@@ -18,15 +18,15 @@ a dos pokemones y mostrar el ganador.
 
 -tercer paso: iniciar el servidor local con ng serve en la terminal (CMD)
 
--cuarto paso: abrir el navegador con la url http://localhost:4200/ y en la pagina
+-cuarto paso: abrir el navegador con la url http://localhost:4200/ y en la pagina 
 principal digitar los nombres de los pokemones que desea enfrentar.
 
 
 #Reglas de la puntuacion para cada pokemon
 
+| -----------------------------------------------------|
 |              Relaciones de Daño (damage_relations)         |
-| :-----------------------------: |
-| :-----| :-----: | ----: |
+| :------------------| :-------------------:  | -----------: |
 |    Tipo de daño    |      Descripción       |Puntos de daño|
 | :----------------  | :-------------------:  |-----------:  |
 |                    | Lista de tipos que son |              |
